@@ -1,0 +1,104 @@
+*{
+    border: 0px;
+    margin: 0px;
+    color: white;
+}
+
+header#main{
+    background-image: url("../img/bg-header.jpg");
+    background-size: cover;
+    background-position:65% 50%;
+    height:100%;
+    background-attachment:fixed;
+}
+
+header#main nav{
+    padding-top:10px;
+    border-bottom: 10px;
+    box-sizing:border-box;
+}
+
+header#main nav ul{
+    padding: 0px;
+}
+
+header#main nav ul li{
+    list-style: none;
+    border-top: solid 1px white;
+    width: 100%;
+    transition: all .5s ease;
+    font-size: 15px;
+}
+
+header#main nav ul li:last-child{
+    border-bottom: solid 1px white;
+}
+
+header#main nav ul li:hover{
+    cursor: pointer;
+    padding-left: 15px;
+    background-color: gray;
+    opacity: 0.7;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+header#main h1 {
+    font-size: 20vw;
+    position: relative;
+    padding-left: 10px;
+}
+header#main h1::first-letter{
+    color: gray;
+}
+
+header#main h1 img{
+    width: 8%;
+    height: 22%;
+    position: absolute;
+    left: 5%;
+    top: 37%;
+}
+
+header#main h2{
+    width:50%;
+    padding-left:20px;
+}
+
+header#main section{
+    width: 80%;
+    left:auto;
+    right: auto;
+    padding:10%;
+}
+
+header#main section img{
+    width:30px;
+    height:30px;
+    opacity: 0.7;
+}
+
+header#main section h3{
+    width:100px;
+}
+
+
+header#main section p{
+    font-size: 10px;
+}
+
+section.content{
+    background-color: black;
+}
+
+section.content h4{
+    left: auto;
+    right: auto;
+    padding:5% 0 5% 10%;
+}
+
+section.content.cats-img{
+    width:80%;
+    box-sizing: border-box;
+    display: inline-block;
+}
